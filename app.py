@@ -6,7 +6,7 @@ import os
 app = Flask(__name__)
 
 # LINE APIの設定
-LINE_CHANNEL_ACCESS_TOKEN = 'iWG98xqtogD632vaIZmlAJ2gqVvdTRhJP1vCr9mtswDMYx4c1rWXNLTo80W5N7gMwKoZX4jyqZKyp62Z2hwcmcOnrX5Bk9KjPnUkdqNup14w2HUfc42YYHjlsod135plSoBDi/kR1+5ypru2iYGgGQdB04t89/1O/w1cDnyilFU='
+LINE_CHANNEL_ACCESS_TOKEN = 'HebQLBzo3AsxAhlXnCNQPOMGs6f29b4dg/wDooDO1wPLrFAOaFwhEccvv/f1oE+5IhW0G+Lt3bYAu4DUjUKP8HPKubZzw1IkAPHhZI8UneNTUaBasRpWN1L/kYVp6xwS9TzfMoN3/PxO9e+yWxk/2AdB04t89/1O/w1cDnyilFU='
 
 # Webhookを受け取るエンドポイント
 @app.route("/callback", methods=['POST'])
